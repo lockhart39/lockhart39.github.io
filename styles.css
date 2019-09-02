@@ -10,3 +10,8 @@ html, body {
 #head_area {
 	border-bottom: 3px solid #fff;
 }
+
+
+ul {
+	display: inline;
+}
