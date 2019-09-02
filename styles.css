@@ -11,3 +11,11 @@ html, body {
 	border-bottom: 3px solid #fff;
 	display: inline;
 }
+
+#left_head {
+	float: left;
+}
+
+#right_head {
+	float: right;
+}
