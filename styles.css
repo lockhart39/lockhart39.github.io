@@ -9,5 +9,5 @@ html, body {
 
 #head_area {
 	border-bottom: 3px solid #fff;
-	display: inline;
+	display: block;
 }
