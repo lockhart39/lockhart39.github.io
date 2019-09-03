@@ -11,16 +11,18 @@ a {
 	padding: 0.25rem;
 	margin: 0.25rem;
 	font-size: 1.25rem;
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #fff;
 }
 
 a:hover {
 	color: #29FF60;
 	text-transform: uppercase;
-	transition: 750ms;
-}
-
-a:visited {
-	text-decoration: none;
+	transition: 600ms;
 }
 
 b {
