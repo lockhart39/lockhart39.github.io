@@ -3,11 +3,47 @@ html, body {
 	padding: 0;
 	width: 100%;
 	font-family: verdana;
-	background-color: #0b0b0b;
+	background-color: #002026;
 	color: #fff;
+}
+
+a {
+	padding: 0.25rem;
+	margin: 0.25rem;
+	font-size: 1.25rem;
+}
+
+a:hover {
+	color: #29FF60;
+	text-transform: uppercase;
+	transition: 750ms;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+b {
+	font-size: 1.5rem;
+	color: #29DFFF;
+	padding: 0.5rem;
 }
 
 #head_area {
 	border-bottom: 3px solid #fff;
+	width: 100%;
+	margin-top: 0.25rem;
+	padding: 0;
+}
+
+#pDiv {
 	display: block;
+	text-align: center;
+	width: 20rem;
+	padding: 2.5rem;
+	background: #fff;
+	color: #002026;
+	border-style: solid;
+	border-radius: 0.75rem;
+	margin: 2rem;
 }
