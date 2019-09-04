@@ -90,3 +90,15 @@ b {
 	opacity: 1;
 	transition: 0s;
 }
+
+#skillsDiv {
+	display: block;
+	text-align: left;
+	width: 30%;
+	padding: 2.5rem;
+	background: #fff;
+	color: #002026;
+	border-style: solid;
+	border-radius: 0.75rem;
+	margin: 2rem;
+}
