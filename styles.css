@@ -2,7 +2,7 @@ html, body {
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	font-family: verdana;
+	font-family: Arial, Helvetica, sans-serif;
 	background-color: #002026;
 	color: #fff;
 }
@@ -45,6 +45,25 @@ b {
 	width: 100%;
 	margin-top: 0.25rem;
 	padding: 0;
+}
+
+#kaggleLinkDiv {
+	margin: 2rem;
+}
+
+#kaggleProfileLink {
+	background-color: #fff;
+	border-style: solid;
+	border-radius: 5px;
+	border-color: transparent;
+	margin: 1rem;
+	color: #002026;
+	padding: 0.25rem;
+}
+
+#kaggleProfileLink:hover {
+	text-transform: none;
+	background-color: rgb(168, 167, 168);
 }
 
 #parent_home {
@@ -102,3 +121,4 @@ b {
 	border-radius: 0.75rem;
 	margin: 2rem;
 }
+
