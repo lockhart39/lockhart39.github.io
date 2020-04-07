@@ -13,3 +13,9 @@ console.log(count);
 const one = 1;
 count = count + one;
 console.log(count);
+
+// Number function converts input to a number
+
+let myInt = Number(prompt("Enter a number:"));
+
+console.log("Your number was: " + myInt);
