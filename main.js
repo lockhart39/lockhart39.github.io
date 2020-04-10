@@ -30,22 +30,37 @@
 
 // while & do
 
-let fake_num = 0;
-while (fake_num < 10) {
-    console.log(fake_num);
-    fake_num += 1;
-}
+// let fake_num = 0;
+// while (fake_num < 10) {
+//     console.log(fake_num);
+//     fake_num += 1;
+// }
 
 // do forces the body to be executed at least once
-let user_pw;
-do {
-    user_pw = prompt('Enter a password: ');
-} while (!user_pw) {
-    console.log(user_pw);
-}
+// let user_pw;
+// do {
+//     user_pw = prompt('Enter a password: ');
+// } while (!user_pw) {
+//     console.log(user_pw);
+// }
 
 // for loop
 
-for (let i = 0; i < 12; i += 1) {
-    console.log(i)
+// functions
+
+// const myFunc = function(x) {
+//     return x * x;
+// }
+
+// for (let i = 0; i < 12; i += 1) {
+//     console.log(myFunc(i));
+// }
+
+// declaration notation
+// with this notation you can define a function after calling it
+
+console.log('Your number cubed: ', futureFunc(prompt('Enter a number:')));
+
+function futureFunc(x) {
+    return x * x * x;
 }
