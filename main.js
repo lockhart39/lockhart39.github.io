@@ -59,8 +59,19 @@
 // declaration notation
 // with this notation you can define a function after calling it
 
-console.log('Your number cubed: ', futureFunc(prompt('Enter a number:')));
+// console.log('Your number cubed: ', futureFunc(prompt('Enter a number:')));
 
 function futureFunc(x) {
     return x * x * x;
 }
+
+// Some more string functionality 
+function addLeadingZero(x) {
+    x = String(x);
+    while (x.length < 5) {
+        x = "0" + x;
+    }
+    return x;
+}
+
+console.log('14 with leading zeros: ', addLeadingZero(14));
