@@ -1,32 +1,20 @@
-// console.log(typeof "Test");
+const bourbonMain = {
+    active: true, 
+    allocated: false,
+    distilleries: ['Buffalo Trace', 'Woodford', 'Four Roses', 'Jim Beam', 'Brown Forman', 
+                    'Jim Beam', 'Heaven Hills'], 
+    
+};
 
-// Bindings
+function addDistillery(name) {
+    if (bourbonMain.distilleries.includes(name) == false) {
+        bourbonMain.distilleries.push(name);
+    }
+}
 
-// let myBool = true, count = 0;
-
-// console.log(myBool);
-
-// instead of let, there is also var and const
-// var was how we did what 'let' does before 2015, 
-// but const can still be used to easily refer to something aler
-// console.log(count);
-// const one = 1;
-// count = count + one;
-// console.log(count);
-
-// Number function converts input to a number
-
-// let myInt = Number(prompt("Enter a number:"));
-
-// Conditional execution
-
-// if (myInt == 0) {
-//     console.log('The number was zero.');
-// } else if (myInt % 2 == 0) {
-//     console.log('The number was even.');
-// } else {
-//     console.log('The number was odd');
-// }
+console.log(bourbonMain.distilleries);
+addDistillery("Maker's Mark");
+console.log(bourbonMain.distilleries);
 
 // while & do
 
@@ -61,17 +49,17 @@
 
 // console.log('Your number cubed: ', futureFunc(prompt('Enter a number:')));
 
-function futureFunc(x) {
-    return x * x * x;
-}
+// function futureFunc(x) {
+//     return x * x * x;
+// }
 
-// Some more string functionality 
-function addLeadingZero(x) {
-    x = String(x);
-    while (x.length < 5) {
-        x = "0" + x;
-    }
-    return x;
-}
+// // Some more string functionality 
+// function addLeadingZero(x) {
+//     x = String(x);
+//     while (x.length < 5) {
+//         x = "0" + x;
+//     }
+//     return x;
+// }
 
-console.log('14 with leading zeros: ', addLeadingZero(14));
+// console.log('14 with leading zeros: ', addLeadingZero(14));
