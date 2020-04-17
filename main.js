@@ -1,20 +1,27 @@
 const bourbonMain = {
     active: true, 
     allocated: false,
+    one_time_release: false,
     distilleries: ['Buffalo Trace', 'Woodford', 'Four Roses', 'Jim Beam', 'Brown Forman', 
                     'Jim Beam', 'Heaven Hills'], 
+    addDistillery: function(name) {
+        if (bourbonMain.distilleries.includes(name) == false) {
+            bourbonMain.distilleries.push(name);
+        }
+    }
     
 };
 
-function addDistillery(name) {
-    if (bourbonMain.distilleries.includes(name) == false) {
-        bourbonMain.distilleries.push(name);
-    }
-}
+// function addDistillery(name) {
+//     if (bourbonMain.distilleries.includes(name) == false) {
+//         bourbonMain.distilleries.push(name);
+//     }
+// }
 
+console.log('Before', bourbonMain.distilleries);
+bourbonMain.addDistillery("Maker's Mark");
 console.log(bourbonMain.distilleries);
-addDistillery("Maker's Mark");
-console.log(bourbonMain.distilleries);
+
 
 // while & do
 
