@@ -1,3 +1,6 @@
+// eventually going to switch over creating a project for handling rdbms data
+// executing lookups and transformations
+
 const bourbonMain = {
     active: true, 
     allocated: false,
@@ -12,16 +15,13 @@ const bourbonMain = {
     
 };
 
-// function addDistillery(name) {
-//     if (bourbonMain.distilleries.includes(name) == false) {
-//         bourbonMain.distilleries.push(name);
-//     }
-// }
+// Experimenting with JSON
 
-console.log('Before', bourbonMain.distilleries);
-bourbonMain.addDistillery("Maker's Mark");
-console.log(bourbonMain.distilleries);
+let indStr = JSON.stringify({first_name: NaN, last_name: NaN, deceased: false, homeowner: false, addr_st: NaN});
 
+
+console.log(indStr);
+console.log(JSON.parse(indStr).deceased);
 
 // while & do
 
