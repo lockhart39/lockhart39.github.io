@@ -39,6 +39,7 @@ b {
 
 #avatar_img {
 	/* border: solid; */
+	position: absolute;
 	background: transparent;
 	border-radius: 50%;
 	border-color: grey;
